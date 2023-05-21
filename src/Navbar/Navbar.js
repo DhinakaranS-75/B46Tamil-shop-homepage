@@ -4,7 +4,31 @@ import './Navbar.css'
 function Navbar() {
   return (
     <div>
-        this navbar
+        <nav>
+          
+        <div class="navbar">
+          <h2> <a href='#'>Start Bootstrap</a></h2>
+          <a href="#home">Home</a>
+          <a href="#news">About</a>
+          <div class="dropdown">
+            <button class="dropbtn">Shop 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">All Products</a>
+              <hr />
+              <a href="#">Popular Items</a>
+              <a href="#">New Arrivals</a>
+            </div>
+            <button class="btn" type="submit">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <i class="bi-cart-fill me-1"></i>
+              Cart
+              <span >0</span>
+            </button>
+          </div> 
+        </div>
+        </nav>
     </div>
   );
 }
