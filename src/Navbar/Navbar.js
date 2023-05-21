@@ -8,7 +8,7 @@ function Navbar() {
           
         <div class="navbar">
           <h2> <a href='#'>Start Bootstrap</a></h2>
-          <a href="#home">Home</a>
+          <a href="#home" >Home</a>
           <a href="#news">About</a>
           <div class="dropdown">
             <button class="dropbtn">Shop 
@@ -20,13 +20,13 @@ function Navbar() {
               <a href="#">Popular Items</a>
               <a href="#">New Arrivals</a>
             </div>
-            <button class="btn" type="submit">
+            
+          </div> 
+          <button class="btn" type="submit">
               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-              <i class="bi-cart-fill me-1"></i>
               Cart
               <span >0</span>
             </button>
-          </div> 
         </div>
         </nav>
     </div>
