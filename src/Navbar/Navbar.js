@@ -23,10 +23,10 @@ function Navbar() {
             
           </div> 
           <button className="btn" type="submit">
-              <i className="fa fa-shopping-cart" aria-hidden="true"></i>
-              Cart
-              <span >0</span>
-            </button>
+            <i className="fa fa-shopping-cart" aria-hidden="true"></i>
+            Cart
+            <span >0</span>
+          </button>
         </div>
         </nav>
     </div>

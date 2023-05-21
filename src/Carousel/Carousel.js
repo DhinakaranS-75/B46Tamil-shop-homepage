@@ -9,7 +9,6 @@ function Carousel() {
             <h1>Shop in style</h1>
             <h5>With this shop hompeage template</h5>
           </div>
-          
         </div>
     </div>
   )
