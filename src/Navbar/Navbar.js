@@ -6,15 +6,15 @@ function Navbar() {
     <div>
         <nav>
           
-        <div class="navbar">
+        <div className="navbar">
           <h2> <a href='#'>Start Bootstrap</a></h2>
           <a href="#home" >Home</a>
           <a href="#news">About</a>
-          <div class="dropdown">
-            <button class="dropbtn">Shop 
-              <i class="fa fa-caret-down"></i>
+          <div className="dropdown">
+            <button className="dropbtn">Shop 
+              <i className="fa fa-caret-down"></i>
             </button>
-            <div class="dropdown-content">
+            <div className="dropdown-content">
               <a href="#">All Products</a>
               <hr />
               <a href="#">Popular Items</a>
@@ -22,8 +22,8 @@ function Navbar() {
             </div>
             
           </div> 
-          <button class="btn" type="submit">
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <button className="btn" type="submit">
+              <i className="fa fa-shopping-cart" aria-hidden="true"></i>
               Cart
               <span >0</span>
             </button>
