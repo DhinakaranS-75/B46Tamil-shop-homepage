@@ -1,0 +1,20 @@
+.heading{
+    background-color: #212529;
+    height: 325px;
+    color: white;
+}
+
+.heading-item{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.heading-item h1{
+    font-size: 60px;
+}
+
+.heading-item h5 {
+    font-size: medium;
+}
+
